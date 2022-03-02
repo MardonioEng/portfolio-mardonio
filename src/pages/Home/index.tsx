@@ -1,8 +1,9 @@
 import React from "react";
+import Apresentation from "../../components/Apresentation";
 import "./styles.css";
 
 const Home = () => {
-	return <div className="body-background">Home</div>;
+	return <Apresentation />;
 };
 
 export default Home;
